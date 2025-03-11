@@ -1,0 +1,22 @@
+---
+const pageTitle = "Blogg";
+import '../styles/global.css';
+import Navigation from '../komponen/navigasi.astro';
+---
+<body>
+    <style>
+        h1 {
+            color: black;
+            font-size: 10rem;
+        }
+    </style>
+    <title>{pageTitle}</title>
+    <Navigation />  
+    <h1>{pageTitle}</h1>
+    <p>This is where I will post about my journey learning Astro.</p>
+
+    <ul>
+        <li><a href="/post/postsato">Post pertama</a></li>
+        <li><a href="/post/postdua">Post kedua</a></li>
+    </ul>
+  </body>
