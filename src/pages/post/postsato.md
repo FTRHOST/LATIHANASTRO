@@ -1,7 +1,8 @@
 ---
-title: 'My First Blog Post'
+layout: ../../Layout/MarkdownPostLayout.astro
+title: 'Blog post pertama'
 pubDate: 2025-03-11
-description: 'This is the first post of my new Astro blog.'
+description: 'Pertama kali bikin blog.'
 author: 'Fathir Kepo'
 image:
     url: 'https://docs.astro.build/assets/rose.webp'
